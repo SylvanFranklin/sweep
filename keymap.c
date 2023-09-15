@@ -24,7 +24,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         // ------------------------------------------------------------------------------------------------------------------------
         KC_Q, KC_AT, KC_HASH, KC_DLR, KC_PERC,                                   KC_CIRC, KC_AMPR, KC_ASTR, KC_PLUS, KC_BSPC,
         // ------------------------------------------------------------------------------------------------------------------------
-        KC_TAB, KC_EQL, MT(MOD_LALT, KC_QUOT), MT(MOD_LGUI, KC_DQUO), KC_EXLM,   KC_BSLS, LSFT(KC_LBRC),  KC_LPRN, KC_LBRC, KC_SCLN,
+        KC_TAB, KC_EQL, KC_QUOT, KC_DQUO, KC_EXLM,   KC_BSLS, LSFT(KC_LBRC),  KC_LPRN, KC_LBRC, KC_SCLN,
         // ------------------------------------------------------------------------------------------------------------------------
         KC_TILD, KC_UNDS, KC_MINUS, KC_COLN, KC_GRV,                                KC_PIPE, LSFT(KC_RBRC), KC_RPRN, KC_RBRC, KC_SLSH,
         // ------------------------------------------------------------------------------------------------------------------------
