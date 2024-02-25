@@ -44,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // number key layer
     [3] = LAYOUT_split_3x5_2(
         // ------------------------------------------------------------------------------------------------------------------------
-        KC_Q, KC_AT, KC_HASH, KC_DLR, KC_PERC,                                          KC_CIRC, KC_BRMD, KC_ASTR, KC_PLUS, KC_BSPC,
+        KC_TAB, KC_AT, KC_HASH, KC_DLR, KC_PERC,                                          KC_CIRC, KC_BRMD, KC_ASTR, KC_PLUS, KC_BSPC,
         // ------------------------------------------------------------------------------------------------------------------------
         KC_1, KC_2, MT(MOD_LALT, KC_3), MT(MOD_LGUI, KC_4), KC_EXLM,                    KC_BSLS, MT(MOD_LGUI, KC_6), MT(MOD_LALT, KC_7), KC_8, KC_9,
         // ------------------------------------------------------------------------------------------------------------------------
