@@ -7,6 +7,7 @@
 //   DANCE_4,
 // }
 
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     // base layer / letter layer
@@ -37,16 +38,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         // ------------------------------------------------------------------------------------------------------------------------
         KC_TAB, MOD_RGUI, MO(5), MO(4), KC_EXLM,                                        KC_LEFT, MT(MOD_RGUI, KC_DOWN), MT(MOD_RALT, KC_UP), KC_RIGHT, KC_SCLN,
         // ------------------------------------------------------------------------------------------------------------------------
-        KC_Z, KC_X, MT(MOD_RCTL, KC_COLN), TO(6), KC_NO,                                 KC_PIPE, KC_TAB, KC_TAB, KC_RBRC, KC_SLSH,
+        KC_Z, KC_X, MT(MOD_RCTL, KC_COLN), TO(6), KC_NO,                                KC_PIPE, KC_TAB, KC_TAB, KC_RBRC, KC_SLSH,
         // ------------------------------------------------------------------------------------------------------------------------
                                TO(0), MT(MOD_LSFT, KC_ENT),                             KC_SPC, TO(1)),
 
     // number key layer
     [3] = LAYOUT_split_3x5_2(
         // ------------------------------------------------------------------------------------------------------------------------
-        KC_TAB, KC_AT, KC_HASH, KC_DLR, KC_PERC,                                          KC_CIRC, KC_BRMD, KC_ASTR, KC_PLUS, KC_BSPC,
+        KC_Q, KC_AT, KC_HASH, KC_DLR, KC_PERC,                                          KC_CIRC, KC_BRMD, KC_ASTR, KC_PLUS, KC_BSPC,
         // ------------------------------------------------------------------------------------------------------------------------
-        KC_1, KC_2, MT(MOD_LALT, KC_3), MT(MOD_LGUI, KC_4), KC_EXLM,                    KC_BSLS, MT(MOD_LGUI, KC_6), MT(MOD_LALT, KC_7), KC_8, KC_9,
+        KC_1, KC_2, MT(MOD_LALT, KC_3), MT(MOD_LGUI, KC_4), KC_EXLM,                    KC_TAB, MT(MOD_LGUI, KC_6), MT(MOD_LALT, KC_7), KC_8, KC_9,
         // ------------------------------------------------------------------------------------------------------------------------
         KC_Z, KC_UNDS, KC_MINUS, KC_5, KC_GRV,                                          KC_PLUS, KC_0, KC_COMM, KC_DOT, KC_SLSH,
         // ------------------------------------------------------------------------------------------------------------------------
